@@ -1,0 +1,16 @@
+.site-main .site-banner .site-title h1{
+    padding-top: 35%;
+
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 9rem 0;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+
+.site-title{
+  text-align: center;
+
+}

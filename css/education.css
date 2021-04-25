@@ -1,0 +1,17 @@
+.education-area {
+    background-color:#e9d6ce65;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(109, 104, 104, 0.1);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.le-wagon {
+    width: 100px;
+}
+.le-wagon:hover {
+  transform: scale(1.05);
+}
+.h2-education {
+    text-align: center;
+  }
