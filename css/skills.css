@@ -1,0 +1,52 @@
+.skill-area{
+    background: #f3d6d75b;
+}
+.h2-skill {
+  text-align: center;
+}
+
+.main-container {
+    display: flex;
+}
+
+.cards {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    padding: 16px;
+}
+
+.card-area{
+    padding: 1rem;
+    background: whitesmoke;
+    color: black;
+    margin: 15px;
+    text-align: center;
+    transform: 0.5s;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.card-area:hover{
+    background: #F6EFEC;
+    box-shadow:1px 2px 2px #F490A0; 
+    transform: scale(1.05);
+    transition-duration: 0.7s;
+}
+
+.img-skill {
+    width: 50px;
+}
+
+@media(max-width: 992px) {
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  @media(max-width: 768px) {
+    .cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  }

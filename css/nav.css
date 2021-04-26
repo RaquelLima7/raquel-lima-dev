@@ -44,3 +44,16 @@
   height: 30px;
 }
 
+.cv {
+  text-align: center;
+  width: 7rem;
+  font-size: 15px;
+  background-color: #e57373cc;
+  border-radius: 20px;
+  /* padding: 10px; */
+  font-weight: bolder;
+}
+
+.cv:hover {
+  background-color: #e57373;
+}

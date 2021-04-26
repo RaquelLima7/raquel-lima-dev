@@ -39,7 +39,7 @@
                 <div class="mr-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about-me">About me</a>
@@ -55,6 +55,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="cv nav-link mx-2 text-white"> Get My CV  </a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +82,7 @@
             <div class="site-buttons">
                 <div class="d-flex justify-content-center">
                   <a href="https://github.com/RaquelLima7" class="button btn button primary-button me-4" target="_blank">My GitHub <i class="fab fa-github"></i> </a>
-                  <a href="#" class="button btn button primary-button" target="_blank">Get My CV <i class="fas fa-file-pdf"></i> </a>
+                  <a href="https://www.linkedin.com/in/raquellima7/" class="button btn button primary-button" target="_blank">My LinkedIn <i class="fab fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -159,40 +162,103 @@
 <!-- End Education -->
 
 <!--Skills-->
-<section class="skill-area" id="skills">
-
-      <h2 data-anime="top">My Skills</h2>
-
-  <div class="container">
-    <div class="row d-flex flex-row flex-wrap">
-      <div class="col-sm-12 col-md-6 col-lg-3 tec">
-          <i class="fab fa-html5 fa-lg" style="font-size:50px; color:#dd4b25;"> </i>
-          <h2>HTML5</h2>
-          <p>HTML é uma linguagem de marcação utilizada na construção de páginas web</p>
+<section class="skill-area p-5" id="skills">
+  <h2 class="h2-skill">My Skills</h2>
+  <div class="container main-container">
+    <div class="cards">
+      <div class="card-area">
+        <img src="images/skills/ruby.svg" alt="ruby" class="img-skill">
+          <h4>Ruby</h4>
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-3 tec">
-          <i class="fab fa-css3 fa-lg" style="font-size:50px; color:#318CE7;"> </i>
-          <h2>CSS3</h2>
-          <p>O CSS é um mecanismo para adicionar estilo a um documento web</p>
+      <div class="card-area">
+          <img src="images/skills/js.svg" alt="JS" class="img-skill">
+          <h4>JavaScript</h4>
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-3 tec">
-          <i class="fab fa-js fa-lg" style="font-size:50px; color:#efd81d;"> </i>
-          <h2>JavaScript</h2>
-          <p>Uma linguagem de alto nível com tipagem dinâmica fraca e multiparadigma
+      <div class="card-area">
+        <img src="images/skills/html.svg" alt="HTML" class="img-skill">
+          <h4>HTML</h4>
           </p>
       </div>
 
-      <div class="col-sm-12 col-md-6 col-lg-3 tec">
-          <i class="fab fa-bootstrap fa-lg" style="font-size:50px; color:#6b409e;"> </i>
-          <h2>Bootstrap</h2>
-          <p>Um framework para desenvolvimento de componentes de interface e front-end</p>
+      <div class="card-area">
+        <img src="images/skills/css.svg" alt="css" class="img-skill">
+          <h4>CSS</h4>
       </div>
-    </div>
+
+      <div class="card-area">
+        <img src="images/skills/bootstrap.svg" alt="bootstrap" class="img-skill">
+        <h4>Bootstrap</h4>
+      </div>
+
+      <div class="card-area">
+        <img src="images/skills/sql.png" alt="sql" class="img-skill">
+        <h4>SQL</h4>
+      </div>
+
+      <div class="card-area">
+        <img src="images/skills/git.svg" alt="git" class="img-skill">
+        <h4>Git</h4>
+      </div>
+
+      <div class="card-area">
+        <img src="images/skills/github.svg" alt="github" class="img-skill">
+        <h4>GitHub</h4>
+      </div>
+
+      <div class="card-area">
+        <img src="images/skills/vscode.svg" alt="vscode" class="img-skill">
+        <h4>VSCode</h4>
+      </div>
+
+      <div class="card-area">
+        <img src="images/skills/sublime.svg" alt="sublime" class="img-skill">
+        <h4>Sublime</h4>
+      </div>
+
+      <div class="card-area">
+        <img src="images/skills/linux.svg" alt="linux" class="img-skill">
+        <h4>Linux</h4>
+      </div>
   </div>
 </section>
 <!-- End Skills-->
+<!-- Project Area -->
+
+<section class="project-area" id="projects">
+  <div class="container">
+      <div class="project-title pb-5">
+          <h1 class="h1-projects">My Projects </h1>
+      </div>
+
+      <div class="button-group">
+          <button type="button" class="active" id="btn1" data-filter="*">All</button>
+          <button type="button" data-filter=".front">Front-end</button>
+          <button type="button" data-filter=".back">Back-end</button>
+          <button type="button" data-filter=".ruby">Ruby on Rails</button>
+      </div>
+
+      <div class="row grid mt-5">
+        <div class="col-lg-4 col-md-6 col-sm-12 element-item front">
+          <div class="our-project">
+            <div class="img">
+                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
+                  <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
+                </a>
+            </div>
+            <div class="title py-4">
+              <h4 class="text-uppercase">Minimul Desing</h4>
+                  <span class="text-secondary">Latest, Portfolio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- End Project -->
+
 
 </main>
   <!--  Bootstrap js file  -->
