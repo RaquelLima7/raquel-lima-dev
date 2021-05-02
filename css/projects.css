@@ -16,17 +16,11 @@
     font-weight: bold;
 }
 
-.site-main .project-area .button-group button + button {
+/* .site-main .project-area .button-group button + button {
     margin-left: 1rem;
-}
+} */
 
 .site-main .project-area .button-group button:hover {
  transform: scale(1.05);
  background-color: #F490A0;
 } 
-
-
-/* .site-main .project-area .grid .our-project .img a:hover img{
-    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
-} */
-

@@ -1,3 +1,4 @@
+// Isotope
 $(".project").isotope({
   itemSelector: '.element-item',
   layoutMode: 'fitRow',
@@ -13,3 +14,4 @@ $(".project .button-group button").click(function(){
   });
   return false
 });
+

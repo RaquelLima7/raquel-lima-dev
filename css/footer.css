@@ -1,0 +1,21 @@
+footer {
+  background-color: pink;
+  color: white;
+  font-weight: bold;  
+  padding: 30px 0px;
+	text-align: center;
+	margin: 5px auto;
+}
+
+.email, .phone {
+  font-size: 50px;
+  margin-right: 1rem;
+}
+
+.email {
+  color: #D44337;
+}
+
+.phone {
+  color: #54AD26;
+}
