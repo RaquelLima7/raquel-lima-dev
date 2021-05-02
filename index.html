@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/nav_en.css">
 
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -95,7 +99,7 @@
   <section id="about-me" class="about-area mt-2 p-5" data-aos="fade-down">
     <div class="container-fluid">
             <div class="about-title">
-                <h2 data-anime="top" class="h2-about">About me</h2>
+                <h2 data-anime="top">About me</h2>
                 <div class="paragraph mt-4">
                     <p> I’m a web developer 💻 and Brazilian lawyer ⚖ (OAB/RJ nº 210.681), graduate degree in Brazilian Tax Law by Damásio Educacional (Ibmec).
                     </p>
@@ -122,7 +126,7 @@
 <!-- Education -->
 <section id="education" class="p-5" data-aos="fade-up">
   <div class="container-fluid">
-      <h2 class="h2-education">Education</h2>
+      <h2>Education</h2>
         <div class="education-area m-5 p-5">
               <img src="images/lewagon.png" alt="Le Wagon" class="le-wagon">
                 <h5 class="mt-2">Le Wagon</h5>
@@ -142,7 +146,7 @@
   <div class="modal-dialog modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">My Certificates <i class="fas fa-graduation-cap"></i></h5>
+        <h5 class="modal-title skill-name" id="staticBackdropLabel">My Certificates <i class="fas fa-graduation-cap"></i></h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -166,63 +170,88 @@
 
 <!--Skills-->
 <section class="skill-area p-5" id="skills" data-aos="fade-down">
-  <h2 class="h2-skill">My Skills</h2>
+  <h2>My Skills</h2>
   <div class="container main-container">
     <div class="cards">
       <div class="card-area" data-aos="fade-up">
         <img src="images/skills/ruby.svg" alt="ruby" class="img-skill my-2">
-          <h5>Ruby</h5>
+          <h5 class="skill-name">Ruby</h5>
+      </div>
+
+      <div class="card-area" data-aos="fade-up">
+        <img src="images/skills/ror.png" alt="RoR" class="img-skill my-2">
+          <h5 class="skill-name">Ruby on Rails</h5>
       </div>
 
       <div class="card-area" data-aos="fade-up">
           <img src="images/skills/js.svg" alt="JS" class="img-skill my-2">
-          <h5>JavaScript</h5>
+          <h5 class="skill-name">JavaScript</h5>
       </div>
 
       <div class="card-area" data-aos="fade-up">
+        <img src="images/skills/node.jpg" alt="node" class="img-skill my-2">
+        <h5 class="skill-name">Node JS</h5>
+    </div>
+
+      <div class="card-area" data-aos="fade-up">
         <img src="images/skills/html.svg" alt="HTML" class="img-skill my-2">
-          <h5>HTML</h5>
+          <h5 class="skill-name">HTML</h5>
           </p>
       </div>
 
       <div class="card-area" data-aos="fade-up">
         <img src="images/skills/css.svg" alt="css" class="img-skill my-2">
-          <h5>CSS</h5>
+          <h5 class="skill-name">CSS</h5>
       </div>
 
       <div class="card-area" data-aos="fade-up">
+        <img src="images/skills/sass.png" alt="Sass" class="img-skill my-2">
+          <h5 class="skill-name">Sass</h5>
+      </div> 
+
+      <div class="card-area" data-aos="fade-up">
         <img src="images/skills/bootstrap.svg" alt="bootstrap" class="img-skill my-2">
-        <h5>Bootstrap</h5>
+        <h5 class="skill-name">Bootstrap</h5>
       </div>
 
       <div class="card-area" data-aos="fade-up">
         <img src="images/skills/sql.png" alt="sql" class="img-skill my-2">
-        <h5>SQL</h5>
+        <h5 class="skill-name">SQL</h5>
+      </div>
+
+      <div class="card-area" data-aos="fade-up">
+        <img src="images/skills/PostgreSQL.png" alt="PostgreSQL" class="img-skill my-2">
+        <h5 class="skill-name">PostgreSQL</h5>
+      </div>
+
+      <div class="card-area" data-aos="fade-up">
+        <img src="images/skills/mongo.jpeg" alt="mongo" class="img-skill my-2">
+        <h5 class="skill-name">Mongo DB</h5>
       </div>
 
       <div class="card-area" data-aos="fade-up">
         <img src="images/skills/git.svg" alt="git" class="img-skill my-2">
-        <h5>Git</h5>
+        <h5 class="skill-name">Git</h5>
       </div>
 
       <div class="card-area" data-aos="fade-up">
         <img src="images/skills/github.svg" alt="github" class="img-skill my-2">
-        <h5>GitHub</h5>
+        <h5 class="skill-name">GitHub</h5>
       </div>
 
       <div class="card-area" data-aos="fade-up">
         <img src="images/skills/vscode.svg" alt="vscode" class="img-skill my-2">
-        <h5>VSCode</h5>
+        <h5 class="skill-name">VSCode</h5>
       </div>
 
       <div class="card-area" data-aos="fade-up">
         <img src="images/skills/sublime.svg" alt="sublime" class="img-skill my-2">
-        <h5>Sublime</h5>
+        <h5 class="skill-name">Sublime</h5>
       </div>
 
       <div class="card-area" data-aos="fade-up">
         <img src="images/skills/linux.svg" alt="linux" class="img-skill my-2">
-        <h5>Linux</h5>
+        <h5 class="skill-name">Linux</h5>
       </div>
   </div>
 </section>
@@ -232,7 +261,7 @@
 <section class="project-area" id="projects" data-aos="fade-up">
   <div class="container project">
       <div class="pb-5">
-          <h1 class="h1-projects">My Projects </h1>
+          <h2>My Projects </h2>
       </div>
 
       <div class="button-group">
@@ -295,13 +324,13 @@
 
 <!--Contact-->
 <section class="contact-area p-5" id="contact" data-aos="fade-down">
-  <h2 class="h2-skill mb-5">Contact me</h2>
-  <div class="d-flex justify-content-around">
-    <div>
-      <p><i class="fas email fa-envelope"></i> raquellimadev@gmail.com</p>
+  <h2 class="mb-5">Contact me</h2>
+  <div class="contact">
+    <div class="contact-email">
+      <h5><i class="fas email fa-envelope"></i> raquellimadev@gmail.com</h5>
     </div>
     <div>
-      <p><i class="fas phone fa-phone"></i>+ 55 21 98003-1894</p>
+      <h5><i class="fas phone fa-phone"></i>+ 55 21 98003-1894</h5>
     </div>
   </div>
 </section>
