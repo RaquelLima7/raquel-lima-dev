@@ -14,4 +14,10 @@ html, body{
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  color: #110E30;
+  font-family: 'Lora', serif;
+}
+
+h2 {
+  text-align: center;
 }

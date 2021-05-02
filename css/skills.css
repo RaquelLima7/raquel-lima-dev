@@ -1,9 +1,6 @@
 .skill-area{
     background: #f3d6d75b;
 }
-.h2-skill {
-  text-align: center;
-}
 
 .main-container {
     display: flex;
@@ -33,6 +30,10 @@
     box-shadow:1px 2px 2px #F490A0; 
     transform: scale(1.05);
     transition-duration: 0.7s;
+}
+
+.skill-name {
+  color: #110E30;
 }
 
 .img-skill {
