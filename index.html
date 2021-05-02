@@ -75,8 +75,8 @@
             <h2 class="title-text mb-4">Full-Stack Developer | Ruby on Rails</h2>
             <div class="site-buttons">
                 <div class="d-flex justify-content-center">
-                  <a href="https://github.com/RaquelLima7" class="button btn button primary-button me-4" target="_blank">My GitHub <i class="fab fa-github"></i> </a>
-                  <a href="https://www.linkedin.com/in/raquellima7/" class="button btn button primary-button" target="_blank">My LinkedIn <i class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/RaquelLima7" class="button btn primary-button me-4" target="_blank">My GitHub <i class="fab fa-github"></i> </a>
+                  <a href="https://www.linkedin.com/in/raquellima7/" class="button btn primary-button" target="_blank">My LinkedIn <i class="fab fa-linkedin"></i></a>
                 </div>
               </div>
           </div>
@@ -108,7 +108,7 @@
                     </p>
                 </div>
                 <div class="d-flex justify-content-center mt-4">
-                  <a href="#" class="button btn button primary-button" target="_blank">Get My CV <i class="fas fa-file-pdf"></i> </a>
+                  <a href="#" class="button btn primary-button" target="_blank">Get My CV <i class="fas fa-file-pdf"></i> </a>
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
               </p>
         </div>
         <div class="d-flex justify-content-center">
-        <button type="button" class="button btn button primary-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <button type="button" class="button btn primary-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           My Certificates <i class="fas fa-graduation-cap"></i>
         </button>
     </div>
@@ -227,32 +227,63 @@
 <!-- Project Area -->
 
 <section class="project-area" id="projects">
-  <div class="container">
-      <div class="project-title pb-5">
+  <div class="container project">
+      <div class="pb-5">
           <h1 class="h1-projects">My Projects </h1>
       </div>
 
       <div class="button-group">
-          <button type="button" class="active" id="btn1" data-filter="*">All</button>
-          <button type="button" data-filter=".front">Front-end</button>
-          <button type="button" data-filter=".back">Back-end</button>
-          <button type="button" data-filter=".ruby">Ruby on Rails</button>
+        <button type="button" class="active" id="btn1" data-filter=".all">All</button>
+        <button type="button" data-filter=".front">Front-end</button>
+        <button type="button" data-filter=".back">Back-end</button>
+        <button type="button" data-filter=".ruby">Ruby on Rails</button>
       </div>
 
       <div class="row grid mt-5">
-        <div class="col-lg-4 col-md-6 col-sm-12 element-item front">
-          <div class="our-project">
-            <div class="img">
-                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
-                  <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
-                </a>
-            </div>
-            <div class="title py-4">
-              <h4 class="text-uppercase">Minimul Desing</h4>
-                  <span class="text-secondary">Latest, Portfolio</span>
+        <div class="col-lg-4 col-md-6 col-sm-12 element-item front all">
+          <div class="card" style="width: 18rem;">
+            <img src="/images/Projects/30daysofcss.gif" class="card-img-top" alt="30 Days of CSS">
+            <div class="card-body">
+              <h5 class="card-title text-center">30 Days Of CSS</h5>
+              <p class="card-text">30 days of CSS is a project that aims to improve coding skills by making mini daily projects using HTML5 and CSS.</p>
+              <p class="card-text">Technologies: HTML5 & CSS</p>
+              <div class="d-flex justify-content-center">
+                <a href="https://github.com/RaquelLima7/30DaysOfCSS" class="button-pj btn me-2" target="_blank"> GitHub <i class="fab fa-github"></i> </a>
+              </div>
             </div>
           </div>
         </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 element-item back ruby all">
+          <div class="card" style="width: 18rem;">
+            <img src="/images/Projects/watch_list.gif" class="card-img-top" alt="Watch list">
+            <div class="card-body">
+              <h5 class="card-title text-center">Watch List</h5>
+              <p class="card-text">Watch list is an application that you can make lists and add movies, and you can also exclude it.</p>
+              <p class="card-text">Technologies: Ruby on Rails, Bootstrap, PostgreSQL & Le Wagon movies API. </p>
+              <div class="d-flex justify-content-center">
+                <a href="https://github.com/RaquelLima7/watch-list" class="button-pj btn me-2" target="_blank"> GitHub <i class="fab fa-github"></i> </a>
+                <a href="https://watch-list-raquel.herokuapp.com/" class="button-pj btn" target="_blank">Deploy <i class="fas fa-server"></i></a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 element-item back ruby all">
+          <div class="card" style="width: 18rem;">
+            <img src="/images/Projects/task.gif" class="card-img-top" alt="Task Manager">
+            <div class="card-body">
+              <h5 class="card-title text-center">Task Manager</h5>
+              <p class="card-text">Task Manager is an application that you can list, view the details, add, edit and remove a task.</p>
+              <p class="card-text">Technologies: Ruby on Rails & Bootstrap.</p>
+              <div class="d-flex justify-content-center">
+                <a href="https://github.com/RaquelLima7/task-manager" class="button-pj btn me-2" target="_blank"> GitHub <i class="fab fa-github"></i> </a>
+              </div>
+            </div>
+            </div>
+        </div>
+          
       </div>
   </div>
 </section>
@@ -264,7 +295,15 @@
   <!--  Bootstrap js file  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
    
-  <!--  Bootstrap js file  -->
+  <!-- JS file  -->
   <script src="js/app.js" type="text/javascript"></script>
+
+  <!--  isotope js library  -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+  <!--  custom js file  -->
+  <script src="/js/main.js"></script>
+
+
 </body>
 </html>
