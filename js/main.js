@@ -1,7 +1,7 @@
 // Isotope
 $(".project").isotope({
   itemSelector: '.element-item',
-  layoutMode: 'fitRow',
+  layoutMode: 'fitRows',
 });
 
 $(".project .button-group button").click(function(){
@@ -15,3 +15,8 @@ $(".project .button-group button").click(function(){
   return false
 });
 
+// $('.grid').isotope({
+//   // options
+//   itemSelector: '.grid-item',
+//   layoutMode: 'fitRows'
+// });
