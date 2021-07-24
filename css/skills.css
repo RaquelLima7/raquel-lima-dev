@@ -42,7 +42,7 @@
 /* responsivity */
 @media (min-width: 300px) {
   .cards-skill {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
